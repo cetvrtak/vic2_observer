@@ -1,0 +1,44 @@
+political_decisions = {
+	observer_mode = {
+		potential = {
+			NOT = { exists = AAA }
+		}
+		allow = {
+			always = yes
+		}
+		effect = {
+			3246 = {
+				secede_province = THIS
+				state_scope = { is_slave = no }
+			}
+			3246 = {
+				secede_province = AAA
+				remove_core = SWE
+				remove_core = JAN
+				remove_core = SCA
+				remove_core = NOR
+				remove_core = ICL
+				change_province_name = "Observer"
+				life_rating = -100
+				add_core = AAA
+				any_pop = {
+					reduce_pop = -1
+				}
+				add_province_modifier = {
+					name = occupied
+					duration = -1
+				}
+			}
+			any_country = {
+				limit = { ai = no }
+				change_tag_no_core_switch = AAA
+				AAA = {
+					ruling_party_ideology = noIdeology
+					primary_culture = dummy
+					religion = dummy_religion
+				}
+			}
+		}
+		ai_will_do = { factor = 1 }
+	}
+}

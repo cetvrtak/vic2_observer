@@ -13,6 +13,7 @@ country_event = {
 	news_desc_short = "EVTDESC23400_NEWS_SHORT"
 
 	trigger = {
+		NOT = { tag = AAA }
 		NOT = { has_country_flag = IOCMember }
 		year = 1893
 		war = no # Nation can NOT be at war at the time of invite

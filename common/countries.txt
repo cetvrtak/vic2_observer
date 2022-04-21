@@ -1,6 +1,7 @@
 #Please keep tags sorted alphabetically when you add/remove country tags
 
 # Special countries...
+AAA     =   "countries/AAA.txt"  ##Added here only to make the converted mod use rebel flag is no country
 REB 	= 	"countries/rebels.txt"
 
 # Common Great Powers

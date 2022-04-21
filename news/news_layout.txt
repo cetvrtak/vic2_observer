@@ -111,6 +111,12 @@ style =
 
 	title_image =
 	{
+		case =	{ # Observer
+			trigger = { 
+				tag = AAA
+			}
+			picture = "news/observer_news.dds"
+		}
 		# FRA ###################
 		case =	{
 			trigger = { 

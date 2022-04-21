@@ -1117,6 +1117,7 @@ province_event = {
 	trigger = {
 		produces = fish
 		is_coastal = yes
+		NOT = { owner = { tag = AAA } }
 	}
 	
 	mean_time_to_happen = {
